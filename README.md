@@ -1,11 +1,11 @@
-# 🔍 IEEE-CIS Fraud Detection — პროექტის დოკუმენტაცია
+# IEEE-CIS Fraud Detection — პროექტის დოკუმენტაცია
  
 > **პლატფორმა:** [DagsHub MLflow](https://dagshub.com/gormo22/ML-FraudDetection.mlflow)  
 > **Dataset:** [IEEE-CIS Fraud Detection (Kaggle)](https://www.kaggle.com/c/ieee-fraud-detection)
 
 ---
 
-## 📁 რეპოზიტორიის სტრუქტურა
+## რეპოზიტორიის სტრუქტურა
 
 ```
 ML-FraudDetection/
@@ -32,7 +32,7 @@ ML-FraudDetection/
 
 ---
 
-## 1️⃣ მონაცემთა ჩატვირთვა და მეხსიერების ოპტიმიზაცია
+## მონაცემთა ჩატვირთვა და მეხსიერების ოპტიმიზაცია
 
 ### რატომ გამოვიყენე `reduce_mem_usage`?
 
@@ -60,7 +60,7 @@ ML-FraudDetection/
 
 ---
 
-## 2️⃣ მონაცემთა მიმოხილვა (EDA)
+## მონაცემთა მიმოხილვა (EDA)
 
 EDA-ს ყოველი ნაწილი ცალკე MLflow run-ად დავალოგე `EDA` ექსპერიმენტის ქვეშ, რათა ვიზუალიზაციები შენახული ყოფილიყო.
 
