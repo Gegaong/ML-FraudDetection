@@ -109,8 +109,6 @@ TransactionAmt-ის ანალიზიდან გამოვლინდ
 
 ### 2.6 V-ფიჩერების ანალიზი
 
-![V-Features Analysis](outputs/v_features_eda.png)
-
 დეითასეტში `V1`-`V339` ფიჩერები წარმოადგენს Vesta-ს (fraud detection კომპანიის) proprietary ფიჩერებს. შევამჩნიე, რომ:
 - ბევრ V-ფიჩერს **50%-ზე მეტი missing value** აქვს
 - კორელაცია target-თან ძალიან განსხვავებულია — ზოგი ძლიერ კორელირებულია, ზოგი სულ არა
@@ -379,4 +377,4 @@ Inference ნოუთბუქი (`model_inference.ipynb`) ასრულე�
 
 
 ---
-Kaggle-ზე submission-ის შედეგად მიღებული შეფასება: 
+Kaggle-ზე submission-ის შედეგად მიღებული შეფასება: 0.92
