@@ -75,7 +75,7 @@ EDA-ს ყოველი ნაწილი ცალკე MLflow run-ად 
 
 ### 2.2 TransactionAmt ანალიზი
 
-![Transaction Amount Analysis](outputs/transaction_amt_eda.png)
+![Transaction Amount Analysis](transaction_amt_eda.png)
 
 TransactionAmt-ის ანალიზიდან გამოვლინდა:
 - ტრანზაქციის თანხა ძლიერი **right-skewed** განაწილებით ხასიათდება — log transform აუცილებელია ვიზუალიზაციისთვის
@@ -84,7 +84,7 @@ TransactionAmt-ის ანალიზიდან გამოვლინდ
 
 ### 2.3 დროის ანალიზი
 
-![Time-Based Patterns](outputs/time_eda.png)
+![Time-Based Patterns](time_eda.png)
 
 `TransactionDT` წარმოადგენს unix-ის სახის timestamp-ს. ამ სვეტიდან ამოვიღე:
 - **საათი დღის განმავლობაში** → ჩანს, რომ ღამის საათებში fraud rate მაღლა ადის
@@ -94,7 +94,7 @@ TransactionAmt-ის ანალიზიდან გამოვლინდ
 
 ### 2.4 კატეგორიული ფიჩერების ანალიზი
 
-![Categorical Feature Analysis](outputs/categorical_eda.png)
+![Categorical Feature Analysis](categorical_eda.png)
 
 განვიხილე `ProductCD`, `card4`, `card6`, `DeviceType`:
 - **ProductCD** — სხვადასხვა პროდუქტის კატეგორიებს განსხვავებული fraud rate აქვთ
@@ -103,7 +103,7 @@ TransactionAmt-ის ანალიზიდან გამოვლინდ
 
 ### 2.5 კორელაციის ანალიზი
 
-![Correlation Heatmap](outputs/correlation_heatmap.png)
+![Correlation Heatmap](correlation_heatmap.png)
 
 ეს ანალიზი მნიშვნელოვანი იყო Feature Selection-ის დასაგეგმად — გამოჩნდა, რომ ბევრი ფიჩერი ძლიერ კორელირებულია ერთმანეთთან, რაც redundancy-ს ნიშნავს.
 
