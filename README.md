@@ -13,11 +13,7 @@ ML-FraudDetection/
 ├── model_experiment.ipynb     # მთავარი ნოუთბუქი — EDA, Feature Engineering, Training
 ├── model_inference.ipynb      # ინფერენს ნოუთბუქი — მოდელის ჩატვირთვა და submission
 ├── README.md                  # ეს ფაილი
-└── data/                      # (ლოკალური, .gitignore-ში)
-    ├── train_transaction.csv
-    ├── train_identity.csv
-    ├── test_transaction.csv
-    └── test_identity.csv
+└── submission.csv
 ```
 
 ---
