@@ -64,7 +64,7 @@ EDA-ს ყოველი ნაწილი ცალკე MLflow run-ად 
 
 პირველი, რაც შევამოწმე, იყო კლასების ბალანსი.
 
-![Target Variable Distribution](outputs/target_distribution.png)
+![Target Variable Distribution](distribution.png)
 
 > `isFraud` განაწილების bar chart  
 
